@@ -18,7 +18,7 @@
 Install dependencies:
 
 ```shell
-conda create -n myopia python=3.9 
+conda create -n evalfas python=3.9 
 
 conda activate evalfas 
 
