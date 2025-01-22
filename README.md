@@ -15,15 +15,15 @@
 
 ## Environment setup
 
-Install dependencies:
+Create the environment:
 
 ```shell
 conda create -n evalfas python=3.9 
 
 conda activate evalfas 
-
-pip install -r requirements.txt 
 ```
+then install dependencies
+
 ## Models
 
 We provide one of the surrogate model links for testing. The full list will be released after acceptance.
@@ -39,5 +39,6 @@ We have experimented with volunteers, but you can also use LFW for testing.
 To generate adversarial patches, you can run
 
 ```bash
-bash run.sh
+cd attack
+python demo_multimodel_glass.py
 ```
