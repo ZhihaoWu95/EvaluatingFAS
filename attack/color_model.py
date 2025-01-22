@@ -19,7 +19,7 @@ def color_correction(img, device):
 
     model_names = ['model_hik.pt']
     
-    model_dir = '../sim_phy/models_0124/'
+    model_dir = '../'
 
     model_name = random.choice(model_names)
     param = torch.load(os.path.join(model_dir, model_name))
